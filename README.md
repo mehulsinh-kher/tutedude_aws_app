@@ -1,0 +1,11 @@
+Deployed app git repo: https://github.com/mehulsinh-kher/tutedude_docker.git
+
+full stack instance server running instrunctions
+
+        cd tutedude_docker/backend/
+        source venv/bin/activate
+        nohup python app.py 
+        nohup python app.py &
+        cd ..
+        cd frontend/
+        nohup npm start &
